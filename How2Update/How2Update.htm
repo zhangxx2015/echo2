@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>How to Update...</title>
+</head>
+<body>
+<center>
+<img src=Running.bmp><br>
+1.回声仪运行时,按Ctrl+C强制中停批处理程序.<br>
+询问Terminate batch job (Y/N)?时,按'Y'中止程序<br>
+使用cls指令清屏</br>
+2.在当前盘根目录下运行Intersvr.exe,执行<br>
+微软电缆线联机程序服务器端<br>
+<img src=InterSvr.bmp><br>
+3.使用一台已安装DOS6.0以上操作系统的PC机,<br>
+配置config.sys文件.内容如下:<br>
+DEVICE=A:\INTERLNK.EXE<br>
+4.使用RS232更新电缆连接PC机和回声仪.<br>
+5.启动PC,进入DOS系统以后,输入Interlnk.exe回车.<br>
+此时,PC机上将显示出本地及回声仪上的盘符映射关系表<br>
+<img src=DrvMap.bmp><br>
+6.利用DOS指令,把新程序拷贝到回声仪中,完成程序更新.<br>
+如上图:<br>
+copy c:\newapp.exe a:\<br>
+</center>
+</body>
+</html>
